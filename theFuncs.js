@@ -8,19 +8,8 @@ let reappear = () =>
     document.getElementById("uglyBoy").className = "reappear";
 }
 
-function swapPic()
+function swapPic(eId, newPic) // parametros que ayudan cambiar la imagen.
 {
-   // alert(document.blobBefore.src);
-   
-    if(document.blobBefore.src === "blobfish/blobFish.jpg" )
-    {
-        document.blobBefore.src = "blobfish/built.jpg";
-    }
-    else if (document.blobBefore.src === "blobfish/built.jpg")
-    {
-
-        document.blobBefore.src = "blobfish/blobFish.jpg;"
-    }
-
-    
+  
+    document.getElementById(eId).src = newPic; // "eId" es el Id de la imagen, y "newPic" seria la nueva imagen que queremos.
 }
