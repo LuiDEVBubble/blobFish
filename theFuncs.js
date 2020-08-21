@@ -8,8 +8,9 @@ let reappear = () =>
     document.getElementById("uglyBoy").className = "reappear";
 }
 
-function swapPic(eId, newPic) // parametros que ayudan cambiar la imagen.
+let swapPic = (eId, newPic) =>// parametros que ayudan cambiar la imagen.
 {
   
     document.getElementById(eId).src = newPic; // "eId" es el Id de la imagen, y "newPic" seria la nueva imagen que queremos.
 }
+

@@ -5,7 +5,7 @@
 
 .reappear
 {
-    display: url(blobFish.jpg) ;
+    display: url(blobFish.jpg) ;/*este codigo me dijo agregar la imagen del blobfish de nuevo */
 }
 
 .schoolSpecial
@@ -16,3 +16,11 @@
     color: currentColor;
 
 }
+
+/*Esta clase es para hacer que mi web page este centrado*/
+.content-wrapper {
+    
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
