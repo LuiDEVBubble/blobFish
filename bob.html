@@ -7,14 +7,27 @@
     <body>
         <h1>The Blobfish</h1>
         <p class="schoolSpecial" >The following image is a picture of a Blobfish, the world's ugliest animal: </p>
-        <img src="blobFish.jpg" id="uglyBoy" onClick="makeInvisible();"><br />
-        <p>Click on the image or on the button below to make the ulgy image disappear.</p><br />
+
+        <!--Imagen de un Blobfish-->
+        <img src="photos/blobFish.jpg" id="uglyBoy" onClick="makeInvisible();"><br />
+        <p>Click on the image or on the "Disappear" button below to make the ulgy image disappear.</p><br />
 
         <!--Buton para que la imagen se desaparezca-->
         <input type="button" id="disappearButton" value="Disappear" onClick="makeInvisible();"> 
 
         <!--Buton para que la imagen aparezca de nuevo-->
-        <input type="button" id="reappearButton" value="Bring It Back" onClick="reappear();">
+        <input type="button" id="reappearButton" value="Bring It Back" onClick="reappear();"> <br /><br />
+
+        <p>By the way, don't forget to check out our latest protein shake that turned this blob
+            into a whole <bold>NEW</bold> blobfish!
+        </p>
+        <p id="Blob">Before:</p> <br />
+
+        <img src="photos/blobFish.jpg" name="blobBefore" onMouseover="swapPic();">
+
+
+
+        
 
     <script src="theFuncs.js"></script>
     </body>
