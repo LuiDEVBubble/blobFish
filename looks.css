@@ -20,7 +20,9 @@
 /*Esta clase es para hacer que mi web page este centrado*/
 .content-wrapper {
     
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    display:block;
+    margin: auto;
+    max-height: 500px;
+    max-width: 500px;
+
   }
