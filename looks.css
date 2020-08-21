@@ -10,6 +10,7 @@
 
 .schoolSpecial
 {
+    text-align: center;
     font-family: fantasy;
     font-size: 20px;
     line-height: 1.6;
@@ -19,10 +20,14 @@
 
 /*Esta clase es para hacer que mi web page este centrado*/
 .content-wrapper {
-    
+    background-color: khaki;
     display:block;
     margin: auto;
     max-height: 500px;
     max-width: 500px;
 
   }
+
+  .centerIt {text-align: center;}
+
+  
