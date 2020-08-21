@@ -7,3 +7,12 @@
 {
     display: url(blobFish.jpg) ;
 }
+
+.schoolSpecial
+{
+    font-family: fantasy;
+    font-size: 20px;
+    line-height: 1.6;
+    color: currentColor;
+
+}
